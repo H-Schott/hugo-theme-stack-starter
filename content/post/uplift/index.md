@@ -1,11 +1,12 @@
 ---
-title: Hello World
-description: Welcome to Hugo Theme Stack
-slug: hello-world
-date: 2022-03-06 00:00:00+0000
-image: cover.jpg
+title: Large-scale terrain authoring through interactive erosion simulation
+description: Hugo Schott, Axel Paris, Lucie Fournier, Eric Guérin, Eric Galin
+slug: uplift
+date: 2023-10-01 00:00:00+0000
+journal: ACM Trans. Graph., presented at Siggraph 2023
+image: teaser_uplift.png
 categories:
-    - Example Category
+    - Virtual Terrain
 tags:
     - Example Tag
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)

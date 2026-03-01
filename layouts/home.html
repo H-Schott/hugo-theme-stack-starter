@@ -1,0 +1,23 @@
+{{ define "main" }}
+    {{- $paginator := partial "helper/paginator.html" . -}}
+    
+    <div class="intro-block">
+    <h1>Bonjour !</h1>
+    <p>I'm a PhD student in Computer Graphics at Université Lyon 1.
+        I'm part of the <a class="in_link" href="https://projet.liris.cnrs.fr/origami/">ORIGAMI</a> team and the <a class="in_link" href="https://www.youtube.com/@ArchesTeam/videos">ARCHES</a> group, at <a class="in_link" href="https://liris.cnrs.fr/">LIRIS</a>.
+        My subject is about virtual terrain edition, with a strong focus on erosion simulation.</p>
+</div>
+
+    <section class="article-list">
+        {{ range $index, $element := $paginator.Pages }}
+            {{ partial "article-list/default" . }}
+        {{ end }}
+    </section>
+
+    {{- partial "pagination.html" . -}}
+    {{- partial "footer/footer" . -}}
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+{{ end }}

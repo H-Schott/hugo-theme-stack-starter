@@ -10,15 +10,31 @@
 [[social]]
     identifier = "github"
     name       = "GitHub"
-    url        = "https://github.com/CaiJimmy/hugo-theme-stack"
+    url        = "https://github.com/H-Schott"
 
     [social.params]
-        icon = "brand-github"
+        icon = "github"
 
 [[social]]
-    identifier = "twitter"
-    name       = "Twitter"
-    url        = "https://twitter.com"
+    identifier = "bluesky"
+    name       = "Bluesky"
+    url        = "https://bsky.app/profile/hugoschott.bsky.social"
 
     [social.params]
-        icon = "brand-twitter"
+        icon = "bluesky"
+
+[[social]]
+    identifier = "mail"
+    name       = "mail"
+    url        = "mailto:hugo.schott@liris.cnrs.fr"
+
+    [social.params]
+        icon = "gmail"
+
+[[social]]
+    identifier = "gscholar"
+    name       = "gscholar"
+    url        = "https://scholar.google.com/citations?user=QxzWUB8AAAAJ&hl=fr&oi=ao"
+
+    [social.params]
+        icon = "googlescholar"
