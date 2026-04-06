@@ -13,9 +13,27 @@
     p {
         font-size: 2rem;
     }
+    ul {
+        font-size: 2rem;
+    }
     h1 {
         font-size: 2.4rem;
     }
+}
+
+.publi_abstract{
+    text-align: justify;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.publi_bibtex{
+    width: fit-content;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin: 0 auto;
+    font-family: "Lucida Sans Typewriter";
+    font-size: small;
 }
 
 .hamburger {
