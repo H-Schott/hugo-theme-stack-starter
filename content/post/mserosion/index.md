@@ -24,9 +24,9 @@ weight: 1       # You can add weight to some posts to override the default sorti
 </iframe>
 
 <div class="publi_bibtex">
-    @article{?,<br>
-        author = {Schott, Hugo and Galin, Eric and Gu\'{e}rin, Eric and Peytavie, Adrien and Paris, Axel},<br>
-        title = {Terrain Amplification using Multi-Scale Erosion},<br>
+    @article{schott2024,<br>
+    &emsp; &emsp; &emsp; author = {Schott, Hugo and Galin, Eric and Gu\'{e}rin, Eric and Peytavie, Adrien and Paris, Axel},<br>
+    &emsp; &emsp; &emsp; title = {Terrain Amplification using Multi-Scale Erosion},<br>
     &emsp; &emsp; &emsp; year = {2024},<br>
     &emsp; &emsp; &emsp; issue_date = {July 2024},<br>
     &emsp; &emsp; &emsp; publisher = {Association for Computing Machinery},<br>
