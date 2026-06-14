@@ -14,3 +14,18 @@ weight: 1       # You can add weight to some posts to override the default sorti
 <p class="publi_abstract">
     Digital terrains are central to realistic landscape depiction, yet authoring tools must balance perceptual realism with intuitive artistic control. We propose a compact vector-based representation that models terrain as nested iso-contours, inspired by geomorphology and cartography. Our method departs from traditional grid-based elevation models by generating contours through an inward Open Eden Growth simulation, followed by marching-triangles reconstruction into a Triangulated Irregular Network. This contour framework supports direct editing such as warping, slope modulation, and smoothing, while allowing reconstruction of a standard elevation map for downstream processing, including erosion and amplification. The approach enables the creation of diverse, realistic terrains from minimal user input and offers simple yet powerful control for designers.
 </p>
+
+
+<div class="publi_bibtex">
+    @article{huftier2026,<br>
+    &emsp; &emsp; &emsp; author = {Huftier, B. and Schott, H. and Galin, E. and Argudo, O. and Peytavie, A. and Guérin, E.},<br>
+    &emsp; &emsp; &emsp; title = {Terrain Synthesis and Authoring based on Iso-Contours},<br>
+    &emsp; &emsp; &emsp; year = {2026},<br>
+    &emsp; &emsp; &emsp; journal = {Computer Graphics Forum},<br>
+    }
+</div>
+<div class="publi_bottom_page"></div>
+
+> [PDF HAL](https://hal.science/hal-05608822/document)\
+> [EG page](https://onlinelibrary.wiley.com/doi/10.1111/cgf.70389)\
+> [Source code](https://github.com/Arches-Team/Contours)
